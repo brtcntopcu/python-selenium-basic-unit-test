@@ -9,7 +9,7 @@ pip install selenium
 ```
 3. Download ChromeDriver from [here](https://chromedriver.chromium.org/downloads). Then link your chromedriver.exe like that:
 ```python
-self.driver = webdriver.Chrome(your_chromedriver_path)
+self.driver = webdriver.Chrome(r[your_chromedriver_path])
 ```
 
 
